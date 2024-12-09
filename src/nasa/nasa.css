@@ -1,0 +1,81 @@
+/* General Body Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f7f7f7; /* Lighter background for a modern feel */
+    color: #444; /* Softer text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+/* Page Header */
+h1 {
+    font-size: 2.4rem; /* Larger and more prominent heading */
+    font-weight: 700; /* Bold for emphasis */
+    color: #222;
+    text-align: center;
+    margin-bottom: 12px;
+    letter-spacing: 1px; /* Slightly spaced for a more modern touch */
+}
+
+/* Description */
+.description {
+    font-size: 1.1rem;
+    color: #666; /* Softer color for better readability */
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+/* Button Styling */
+button {
+    background-color: #ff385c; /* Airbnb-like coral color */
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px; /* Rounded edges */
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #e11d48;
+    transform: translateY(-3px); /* Slight lifting effect */
+}
+
+/* Image Hover Effects */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Calendar Input */
+.calendar-container input {
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.calendar-container input:focus {
+    outline: none;
+    border-color: #ff385c; /* Accent color on focus */
+    box-shadow: 0px 4px 20px rgba(255, 56, 92, 0.2); /* Smooth focus effect */
+}
